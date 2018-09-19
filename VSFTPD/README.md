@@ -40,7 +40,7 @@ pasv_promiscuous=YES
  ```
  if ftpd_full_access = off then
  ```sh
- #setsebool -P ftpd_full_access on
+ $ setsebool -P ftpd_full_access on
  ```
  Now restart the vsftpd 
  ```sh
