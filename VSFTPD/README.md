@@ -50,6 +50,6 @@ For Reference
 Installations [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-on-centos-6--2)
 
 
-Forum [Linux_forum](https://www.linuxquestions.org/questions/linux-newbie-8/vsftpd-problem-with-425-security-bad-ip-connecting-120158/)
+Forum [Linux_forum](https://www.linuxquestions.org/questions/linux-newbie-8/vsftpd-problem-with-425-security-bad-ip-connecting-120158/), [Linux_forum](https://serverfault.com/questions/300782/ftp-not-showing-files-or-directories)
 
  
