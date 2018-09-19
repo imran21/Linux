@@ -34,7 +34,15 @@ pasv_promiscuous=YES
  ```sh
  setenforce 1
  ```
- Now restart the vsftpd
+ And check for the following  
+ ```sh
+ $ getsebool -a |grep ftp
+ ```
+ if ftpd_full_access = off then
+ ```sh
+ #setsebool -P ftpd_full_access on
+ ```
+ Now restart the vsftpd 
  ```sh
  $ systemctl restart vsftpd
  ```
