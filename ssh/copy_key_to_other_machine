@@ -12,4 +12,6 @@ PermitRootLogin yes
 PasswordAuthentication yes
 
 
+service sshd restart
+
 then ssh-copy-id root@123.2.234.22
