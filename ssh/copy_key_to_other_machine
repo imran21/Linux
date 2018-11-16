@@ -1,0 +1,15 @@
+ssh-keygen -t rsa
+
+in /etc/ssh/sshd_config
+
+
+change 
+
+
+PermitRootLogin yes
+
+
+PasswordAuthentication yes
+
+
+then ssh-copy-id root@123.2.234.22
